@@ -11,12 +11,8 @@ function App() {
       {/* Main Container Shop and Cart  */}
       <div className="container">
         {/* Shop Components  */}
-        <div className="shop__components">
+        <div className="product__cart__components">
           <Shop></Shop>
-        </div>
-        {/* Cart Components  */}
-        <div className="cart__components">
-
         </div>
       </div>
     </div>

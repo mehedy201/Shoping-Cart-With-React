@@ -1,0 +1,18 @@
+.product__and__cart{
+    display: flex;
+}
+.product__and__cart .product__container{
+    padding: 5px;
+    flex: 4;
+}
+.product__and__cart .cart__container{
+    flex: 1;
+    background-color: rgba(255, 174, 0, 0.411);
+    padding: 10px;
+    border-radius: 10px;
+}
+.product__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
