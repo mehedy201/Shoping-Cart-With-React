@@ -14,7 +14,6 @@ const Shop = () => {
 
     const clickAddToCartButton = (product) =>{
         const newCart = [...cart, product];
-        console.log(newCart);
         setCart(newCart);
     }
 
